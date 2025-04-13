@@ -1,0 +1,29 @@
+.project {
+	padding: 140px 0;
+
+	background-image: url('./../../assets/images/project-bg.png');
+	background-size: 400px;
+	background-position-y: 225px;
+	background-position-x: left;
+	background-repeat: no-repeat;
+}
+
+.project__container {
+	gap: 60px;
+	margin-bottom: 100px;
+}
+
+.together__container {
+	gap: 115px;
+}
+
+@media (max-width: 768px) {
+	.together__container {
+		flex-direction: column-reverse;
+
+		.img img {
+			width: 85%;
+			margin: 0 auto;
+		}
+	}
+}

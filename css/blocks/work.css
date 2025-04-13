@@ -1,0 +1,16 @@
+.work {
+	padding: 140px 0;
+	background-color: var(--color-primary-dark);
+	background-image: url('./../../assets/images/work-bg.png');
+	background-position-y: -200px;
+	background-position-x: -350px;
+	background-repeat: no-repeat;
+	background-size: 600px;
+
+	.def-text-block {
+		text-align: center;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+}

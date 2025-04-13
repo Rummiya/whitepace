@@ -1,0 +1,9 @@
+.welcome {
+	background-color: var(--color-primary-dark);
+	background-image: url('./../../assets/images/welcome-bg.png');
+	background-size: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+
+	padding: 140px 0;
+}

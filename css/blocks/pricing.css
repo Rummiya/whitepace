@@ -1,0 +1,145 @@
+.pricing {
+	padding: 140px 0;
+
+	.def-title {
+		text-align: center;
+		margin-bottom: 24px;
+	}
+
+	.def-desc {
+		max-width: 980px;
+		text-align: center;
+		margin: 0 auto;
+		margin-bottom: 120px;
+	}
+}
+
+.pricing__container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 62px;
+}
+
+.card {
+	border: 1px solid var(--color-accent);
+	border-radius: 8px;
+
+	/* width: 33.3%; */
+	display: flex;
+	align-items: start;
+	flex-direction: column;
+	gap: 25px;
+
+	padding: 40px 44px;
+	transition: all 0.4s ease-in-out;
+
+	.plan {
+		font-size: 24px;
+		font-weight: 600;
+	}
+
+	.price {
+		font-size: 36px;
+		font-weight: 700;
+	}
+
+	.title {
+		font-size: 18px;
+		font-weight: 500;
+	}
+
+	.list {
+		display: flex;
+		flex-direction: column;
+		gap: 28px;
+	}
+
+	.list-item {
+		display: flex;
+		align-items: center;
+		gap: 20px;
+
+		span {
+			font-size: 16px;
+		}
+	}
+
+	button {
+		background-color: transparent;
+		border: 1px solid var(--color-accent);
+		border-radius: 8px;
+		color: var(--color-dark);
+
+		display: flex;
+		align-items: center;
+		gap: 10px;
+
+		padding: 20px;
+	}
+}
+
+.card:hover {
+	background-color: var(--color-primary-dark);
+	border: none;
+	color: white;
+	transform: scaleY(1.15) scaleX(1.1);
+
+	.price {
+		color: var(--color-accent);
+	}
+
+	.list-item {
+		img {
+			filter: brightness(0) saturate(100%) invert(95%) sepia(25%) saturate(965%)
+				hue-rotate(321deg) brightness(100%) contrast(102%);
+		}
+	}
+
+	button {
+		background-color: var(--color-primary);
+		border: none;
+		color: var(--color-white);
+	}
+}
+
+.pricing-swiper {
+	.swiper-wrapper {
+		padding: 50px 30px 80px;
+	}
+}
+
+@media (max-width: 600px) {
+	.card:hover {
+		transform: none;
+	}
+
+	.swiper-slide-active > .card {
+		background-color: var(--color-primary-dark);
+		border: none;
+		color: white;
+
+		.price {
+			color: var(--color-accent);
+		}
+
+		.list-item {
+			img {
+				filter: brightness(0) saturate(100%) invert(95%) sepia(25%)
+					saturate(965%) hue-rotate(321deg) brightness(100%) contrast(102%);
+			}
+		}
+
+		button {
+			background-color: var(--color-primary);
+			border: none;
+			color: var(--color-white);
+		}
+	}
+
+	.pricing-swiper {
+		.swiper-wrapper {
+			padding: 0 0 80px;
+		}
+	}
+}

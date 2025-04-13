@@ -1,0 +1,13 @@
+.extension {
+	padding: 140px 0;
+	background-color: var(--color-primary-dark);
+}
+
+.extension__container {
+	gap: 100px;
+
+	.def-text-block {
+		max-width: 697px;
+		width: 100%;
+	}
+}

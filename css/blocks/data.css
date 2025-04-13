@@ -1,0 +1,12 @@
+.data {
+	padding: 140px 0;
+}
+
+.sponsors {
+	text-align: center;
+	padding: 140px 0;
+
+	h2 {
+		margin-bottom: 100px;
+	}
+}

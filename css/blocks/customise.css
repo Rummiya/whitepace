@@ -1,0 +1,13 @@
+.customise {
+	padding: 140px 0;
+}
+
+.customise__container {
+	gap: 100px;
+}
+
+@media (max-width: 420px) {
+	.customise {
+		padding-bottom: 0;
+	}
+}

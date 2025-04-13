@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('./reset.css');
+@import url('./global.css');
+@import url('./vars.css');
+
+@import url('./blocks/header.css');
+@import url('./blocks/welcome.css');
+@import url('./blocks/project.css');
+@import url('./blocks/extension.css');
+@import url('./blocks/customise.css');
+@import url('./blocks/pricing.css');
+@import url('./blocks/work.css');
+@import url('./blocks/data.css');
+@import url('./blocks/apps.css');
+@import url('./blocks/reviews.css');
+@import url('./blocks/footer.css');

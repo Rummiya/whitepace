@@ -1,0 +1,13 @@
+.apps {
+	background-color: var(--color-primary-dark);
+	background-image: url('./../../assets/images/apps-bg.png');
+	background-size: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+
+	padding: 140px 0;
+
+	.row {
+		gap: 100px;
+	}
+}
